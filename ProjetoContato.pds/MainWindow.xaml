@@ -1,0 +1,17 @@
+﻿<Window x:Name="Menu" x:Class="Wpf_Estudos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Estudos"
+        mc:Ignorable="d"
+        Title="Menu" Height="345" Width="490">
+    <Grid Margin="0,0,0,-6" RenderTransformOrigin="0.5,0.5">
+        <Grid.Background>
+            <ImageBrush ImageSource="/WhatsApp Image 2023-02-14 at 14.18.42.jpeg"/>
+        </Grid.Background>
+        <Button x:Name="btCadastrar" Content="Cadastrar Contato" HorizontalAlignment="Left" Margin="28,222,0,0" VerticalAlignment="Top" Height="54" Width="181" Foreground="#FFFFF7E3" FontWeight="Bold" FontSize="14" Click="btCadastrar_Click" BorderBrush="#0010FB5F" Background="#FF04B917"/>
+        <Button x:Name="btListar" Content="Listar Contato" HorizontalAlignment="Left" Margin="225,222,0,0" VerticalAlignment="Top" Height="55" Width="182" BorderBrush="#00707070" Foreground="#FFFFF7E3" FontWeight="Bold" FontSize="14" Click="btListar_Click" Background="#FF10C813"/>
+
+    </Grid>
+</Window>
